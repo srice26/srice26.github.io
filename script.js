@@ -1,5 +1,5 @@
 // Load and parse CSV
-Papa.parse("survey.csv", {
+Papa.parse("new_survey.csv", {
     download: true,
     header: true,
     complete: function(results) {
